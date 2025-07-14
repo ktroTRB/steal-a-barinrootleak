@@ -1,4 +1,4 @@
-
+--- updated
 
 -- Anti-Kick Protection (Improved)
 pcall(function()
@@ -83,7 +83,7 @@ local Window = redzlib:MakeWindow({
 })
 
 Window:AddMinimizeButton({
-    Button = { Image = "rbxassetid://100006760882280", BackgroundTransparency = 0 },
+    Button = { Image = "rbxassetid://103561007540212", BackgroundTransparency = 0 },
     Corner = { CornerRadius = UDim.new(0, 6) },
 })
 
@@ -133,10 +133,10 @@ end
 local TabDiscord = Window:MakeTab({ Title = "Discord", Icon = "rbxassetid://84198990394879" })
 TabDiscord:AddSection("Discord")
 TabDiscord:AddDiscordInvite({
-    Name = "Zeta Hub",
+    Name = "zzz Hub",
     Description = "Join the community",
-    Logo = "rbxassetid://88800066762467",
-    Invite = " "
+    Logo = "rbxassetid://103561007540212",
+    Invite = "https://discord.gg/PaRYpmJ4cG "
 })
 
 -- Security Tab
